@@ -1074,13 +1074,13 @@
   dependencies:
     lodash "^4.17.15"
 
-"@backstage/core-api@^0.2.14", "@backstage/core-api@^0.2.15":
-  version "0.2.15"
-  resolved "https://registry.yarnpkg.com/@backstage/core-api/-/core-api-0.2.15.tgz#24c3e4b1fe0bdee36de26c50b8757f41bb266109"
-  integrity sha512-OQTmvCGM3hkaLV0+JPF85dZk/X1SXoIFkXZi9pO/DzBPZ1Psuptia9xNXrhnEeYJaCazlCnOCTXS/kdoT1zBVg==
+"@backstage/core-api@^0.2.14", "@backstage/core-api@^0.2.17":
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/@backstage/core-api/-/core-api-0.2.17.tgz#98036af3caabfc3c8fe6e0cbdad978ca99de16e3"
+  integrity sha512-Q4DOALePzBJtvjSluRyF12jP81FXBgYwF6VMUL/BwA77tfNhZysemQWYjwZZq4AZWYYhUcl5awfEhAjSHXUF1Q==
   dependencies:
     "@backstage/config" "^0.1.4"
-    "@backstage/theme" "^0.2.5"
+    "@backstage/theme" "^0.2.6"
     "@material-ui/core" "^4.11.0"
     "@material-ui/icons" "^4.9.1"
     "@types/prop-types" "^15.7.3"
@@ -1091,15 +1091,15 @@
     react-use "^15.3.3"
     zen-observable "^0.8.15"
 
-"@backstage/core@^0.7.0", "@backstage/core@^0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@backstage/core/-/core-0.7.3.tgz#a55f094f0aceab4102ea08a75832c2ec5a70e226"
-  integrity sha512-uKTCYYAYVtmdOiJrNKe00N0AKeEhxZ+y3qQVY+H96WN9QDql/56XTmoiyPjDU7wK4nDj+yGV4j+xM5uxSXaOCg==
+"@backstage/core@^0.7.0", "@backstage/core@^0.7.3", "@backstage/core@^0.7.7":
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/@backstage/core/-/core-0.7.7.tgz#932dd3e005db6a8f0a425018057b46fbb90160f6"
+  integrity sha512-3/Se257sIPOVtARpv1DlRSGc5ob6Pe5Hdmkco+R9lLydQ9Ct3HqL0dCTvI/85YmQwcph1XT6L3LHqstRyRMnWg==
   dependencies:
     "@backstage/config" "^0.1.4"
-    "@backstage/core-api" "^0.2.15"
+    "@backstage/core-api" "^0.2.17"
     "@backstage/errors" "^0.1.1"
-    "@backstage/theme" "^0.2.5"
+    "@backstage/theme" "^0.2.6"
     "@material-ui/core" "^4.11.0"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
@@ -1115,7 +1115,7 @@
     d3-shape "^2.0.0"
     d3-zoom "^2.0.0"
     dagre "^0.8.5"
-    immer "^8.0.1"
+    immer "^9.0.1"
     lodash "^4.17.15"
     material-table "^1.69.1"
     prop-types "^15.7.2"
@@ -1227,10 +1227,10 @@
     react-router-dom "6.0.0-beta.0"
     zen-observable "^0.8.15"
 
-"@backstage/theme@^0.2.3", "@backstage/theme@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.2.5.tgz#657e2ceaaede1b4dbe8abeafa6e168671a27b6da"
-  integrity sha512-GT7Ok9QSiZWXkxka+vcpweMrOg1lgDkRRjh7aSU97Mcoiq77szdO45o0hZtQChz8qay60vCRlu57ADvUn4QxZw==
+"@backstage/theme@^0.2.3", "@backstage/theme@^0.2.5", "@backstage/theme@^0.2.6":
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.2.6.tgz#f3523738eba3111b03d86adae07d55455d63b272"
+  integrity sha512-7ucdGXMR/c8LKxR8ILCdjPi5SdQVBw+goou49oop45d3SUV70ZVwaCWBi75NNC91dNgaws/tEjxwvCV47rOlEQ==
   dependencies:
     "@material-ui/core" "^4.11.0"
 
@@ -6620,10 +6620,15 @@ ignore@^5.1.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
 
-immer@8.0.1, immer@^8.0.1:
+immer@8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/immer/-/immer-8.0.1.tgz#9c73db683e2b3975c424fb0572af5889877ae656"
   integrity sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==
+
+immer@^9.0.1:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.2.tgz#83e4593df9914acaecfd9fac6a8601ef44d883fc"
+  integrity sha512-mkcmzLtIfSp40vAqteRr1MbWNSoI7JE+/PB36FNPoSfJ9RQRmNKuTYCjKkyXyuq3Dgn07HuJBrwJd4ZSk2yUbw==
 
 import-cwd@^3.0.0:
   version "3.0.0"
